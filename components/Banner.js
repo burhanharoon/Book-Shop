@@ -2,11 +2,13 @@ import React from "react";
 
 export const Banner = () => {
   return (
-    <div className="flex bg-base-300 w-full h-96">
+    <div className="flex bg-light-brown w-full h-96">
       {/* Text */}
-      <div className="flex flex-col w-2/4">
-        <div className="flex flex-col">
-          <span>2021 Reading Challenge</span>
+      <div className="flex flex-col w-2/4 gap-6 p-16">
+        <span className="text-3xl font-bold text-navy-blue">
+          2021 Reading Challenge
+        </span>
+        <div className="flex flex-col text-navy-blue">
           <span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
             similique ut cum commodi dolore voluptatibus modi error fugiat,
@@ -21,14 +23,14 @@ export const Banner = () => {
         </div>
 
         {/* Soical Icon */}
-        <div className="flex">
-          <a href="">
+        <div className="flex gap-6">
+          <a href="#" className="btn btn-ghost">
             <svg
               class="h-6 w-6 text-black"
               viewBox="0 0 24 24"
-              fill="none"
+              fill="indigo"
               stroke="currentColor"
-              stroke-width="2"
+              stroke-width="0"
               stroke-linecap="round"
               stroke-linejoin="round"
             >
@@ -37,13 +39,13 @@ export const Banner = () => {
             </svg>
           </a>
 
-          <a href="">
+          <a href="#" className="btn btn-ghost">
             <svg
               class="h-6 w-6 text-black"
               viewBox="0 0 24 24"
-              fill="none"
+              fill="deepskyblue"
               stroke="currentColor"
-              stroke-width="2"
+              stroke-width="0"
               stroke-linecap="round"
               stroke-linejoin="round"
             >
@@ -52,12 +54,12 @@ export const Banner = () => {
             </svg>
           </a>
 
-          <a href="">
+          <a href="#" className="btn btn-ghost">
             <svg
-              class="h-6 w-6 bg-info"
+              class="h-6 w-6"
               viewBox="0 0 24 24"
-              fill="text-info"
-              stroke="currentColor"
+              fill="none"
+              stroke="#fb3958"
               stroke-width="2"
               stroke-linecap="round"
               stroke-linejoin="round"
@@ -69,6 +71,10 @@ export const Banner = () => {
             </svg>
           </a>
         </div>
+      </div>
+
+      <div className="flex justify-center">
+        <img src="/book.png" alt="" />
       </div>
     </div>
   );

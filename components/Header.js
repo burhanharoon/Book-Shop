@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/Link";
 
 export const Header = () => {
   return (
@@ -8,9 +9,13 @@ export const Header = () => {
       </div>
       <div class="flex-none hidden px-2 mx-2 lg:flex">
         <div class="flex items-stretch text-black">
-          <a class="btn btn-ghost btn-sm rounded-btn">Home</a>
+          <Link href="/">
+            <span class="btn btn-ghost btn-sm rounded-btn">Home</span>
+          </Link>
           <a class="btn btn-ghost btn-sm rounded-btn">My Books</a>
-          <a class="btn btn-ghost btn-sm rounded-btn">Browser</a>
+          <Link href="/browser">
+            <span class="btn btn-ghost btn-sm rounded-btn">Browser</span>
+          </Link>
           <a class="btn btn-ghost btn-sm rounded-btn">Community</a>
         </div>
       </div>
