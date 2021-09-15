@@ -4,7 +4,7 @@ export const AnotherBanner = () => {
   return (
     <div>
       <div className="flex bg-light-brown w-full h-96 items-center">
-        <div className="flex justify-center w-2/4 h-2/4">
+        <div className="flex justify-center w-2/4 h-2/4 lg:h-auto">
           <img src="/book.png" alt="" />
         </div>
         {/* Text */}
@@ -23,7 +23,7 @@ export const AnotherBanner = () => {
 
           {/* Button */}
           <div className="flex">
-            <button class="btn btn-sm lg:btn-lg btn-info">View More</button>{" "}
+            <button className="btn btn-sm lg:btn-lg btn-info">View More</button>{" "}
           </div>
         </div>
       </div>

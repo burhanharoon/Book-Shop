@@ -19,19 +19,19 @@ export default function Home() {
           <Banner />
 
           {/* search Bar */}
-          <div class="form-control ">
-            <div class="relative flex p-2 lg:my-16 gap-4">
+          <div className="form-control ">
+            <div className="relative flex p-2 lg:my-16 gap-4">
               <input
                 type="text"
                 placeholder="Book Name"
-                class="w-full lg:pr-16 input  input-bordered"
+                className="w-full lg:pr-16 input  input-bordered"
               />
               <input
                 type="text"
                 placeholder="Author Name"
-                class="w-full pr-16 input input-bordered"
+                className="w-full pr-16 input input-bordered"
               />
-              <button class="rounded btn btn-info">go</button>
+              <button className="rounded btn btn-info">go</button>
             </div>
           </div>
 

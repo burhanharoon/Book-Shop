@@ -3,7 +3,7 @@ import Head from "next/head";
 
 export const BookType = () => {
   return (
-    <div className="flex flex-col my-16">
+    <div className="flex flex-col mb-16">
       <Head>
         <script
           src="https://kit.fontawesome.com/yourcode.js"
