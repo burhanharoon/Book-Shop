@@ -2,28 +2,26 @@ import React from "react";
 
 export const Banner = () => {
   return (
-    <div className="flex bg-light-brown w-full h-96">
+    <div className="flex bg-light-brown w-full h-96 items-center">
       {/* Text */}
-      <div className="flex flex-col w-2/4 gap-6 p-16">
-        <span className="text-3xl font-bold text-navy-blue">
+      <div className="flex flex-col w-2/4 gap-6 p-5 lg:p-16">
+        <span className="text-xl lg:text-3xl font-bold text-navy-blue">
           2021 Reading Challenge
         </span>
-        <div className="flex flex-col text-navy-blue">
+        <div className="flex flex-col text-navy-blue text-sm lg:text-base">
           <span>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
-            similique ut cum commodi dolore voluptatibus modi error fugiat,
-            autem rem nulla accusantium. Nemo nostrum quasi a praesentium?
-            Similique, at quo!
+            similique ut cum commodi dolore voluptatibus modi error fugiat.
           </span>
         </div>
 
         {/* Button */}
         <div className="flex">
-          <button class="btn btn-info">Learn More</button>{" "}
+          <button class="btn btn-sm btn-info">Learn More</button>{" "}
         </div>
 
         {/* Soical Icon */}
-        <div className="flex gap-6">
+        <div className="flex gap-1 lg:gap-6">
           <a href="#" className="btn btn-ghost">
             <svg
               class="h-6 w-6 text-black"
@@ -73,7 +71,7 @@ export const Banner = () => {
         </div>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-center h-2/4 items-center lg:h-auto">
         <img src="/book.png" alt="" />
       </div>
     </div>

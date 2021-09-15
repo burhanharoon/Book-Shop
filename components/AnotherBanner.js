@@ -3,17 +3,17 @@ import React from "react";
 export const AnotherBanner = () => {
   return (
     <div>
-      <div className="flex bg-light-brown w-full h-96">
-        <div className="flex justify-center w-2/4">
+      <div className="flex bg-light-brown w-full h-96 items-center">
+        <div className="flex justify-center w-2/4 h-2/4">
           <img src="/book.png" alt="" />
         </div>
         {/* Text */}
-        <div className="flex flex-col w-2/4 gap-6 p-16">
-          <span className="text-3xl font-bold text-navy-blue">
+        <div className="flex flex-col w-2/4 gap-6 p-2 lg:p-16">
+          <span className="text-xl lg:text-3xl font-bold text-navy-blue">
             Deals on Great Reads for 2020
           </span>
           <div className="flex flex-col text-navy-blue">
-            <span>
+            <span className="text-sm lg:text-base">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur,
               similique ut cum commodi dolore voluptatibus modi error fugiat,
               autem rem nulla accusantium. Nemo nostrum quasi a praesentium?
@@ -23,7 +23,7 @@ export const AnotherBanner = () => {
 
           {/* Button */}
           <div className="flex">
-            <button class="btn btn-info">View More</button>{" "}
+            <button class="btn btn-sm lg:btn-lg btn-info">View More</button>{" "}
           </div>
         </div>
       </div>

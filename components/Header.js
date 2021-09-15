@@ -3,8 +3,8 @@ import Link from "next/Link";
 
 export const Header = () => {
   return (
-    <div class="navbar shadow-lg bg-white text-neutral-content w-full">
-      <div class="flex-1 px-2 mx-2">
+    <div class="navbar shadow-lg bg-white text-neutral-content w-full lg:px-12">
+      <div class="flex-1 px-2  mx-2 ">
         <span class="text-lg font-bold text-black">My Book Shop</span>
       </div>
       <div class="flex-none hidden px-2 mx-2 lg:flex">

@@ -10,10 +10,13 @@ export const BookType = () => {
           crossorigin="anonymous"
         ></script>
       </Head>
+      {/* Heading */}
       <div className="flex text-3xl text-bold justify-center mb-10">
         <span>Book Type</span>
       </div>
-      <div className="flex gap-16">
+
+      {/* Icons */}
+      <div className="flex-wrap flex gap-16 justify-center">
         <div className="flex flex-col ">
           <button className="btn btn-circle btn-lg">
             <i className="fad fa-child" />

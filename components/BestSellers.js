@@ -15,8 +15,8 @@ export const BestSellers = () => {
       </div>
 
       {/* Cards */}
-      <div className="flex mx-10 justify-center">
-        <div class="card bordered w-1/5 bg-light-brown m-5">
+      <div className=" mx-auto lg:flex justify-center grid grid-cols-2 lg:grid lg:grid-cols-4 md:grid md:grid-cols-3">
+        <div class="card bordered  bg-light-brown lg:m-5 md:m-4">
           <figure>
             <img src="https://www.getnow.pk/wp-content/uploads/2018/03/The-fault-in-our-stars-433x433.png" />
           </figure>
@@ -35,7 +35,8 @@ export const BestSellers = () => {
             </div>
           </div>
         </div>
-        <div class="card bordered w-1/5 bg-light-brown m-5">
+
+        <div class="card bordered bg-light-brown lg:m-5 md:m-4">
           <figure>
             <img src="https://www.getnow.pk/wp-content/uploads/2018/03/Subtle-Art-Of-Not-Giving-A-FCk-433x433.png" />
           </figure>
@@ -54,7 +55,8 @@ export const BestSellers = () => {
             </div>
           </div>
         </div>
-        <div class="card bordered w-1/5 bg-light-brown m-5">
+
+        <div class="card bordered bg-light-brown lg:m-5 md:m-4">
           <figure>
             <img src="https://www.getnow.pk/wp-content/uploads/2018/03/7-433x433.png" />
           </figure>
@@ -73,7 +75,8 @@ export const BestSellers = () => {
             </div>
           </div>
         </div>
-        <div class="card bordered w-1/5 bg-light-brown m-5">
+
+        <div class="card bordered bg-light-brown lg:m-5 md:m-4">
           <figure>
             <img src="https://www.getnow.pk/wp-content/uploads/2018/03/The-Deathly-Hallows-433x433.png" />
           </figure>

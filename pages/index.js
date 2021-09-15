@@ -20,11 +20,11 @@ export default function Home() {
 
           {/* search Bar */}
           <div class="form-control ">
-            <div class="relative flex my-16 gap-4">
+            <div class="relative flex p-2 lg:my-16 gap-4">
               <input
                 type="text"
                 placeholder="Book Name"
-                class="w-full pr-16 input  input-bordered"
+                class="w-full lg:pr-16 input  input-bordered"
               />
               <input
                 type="text"
